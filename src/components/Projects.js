@@ -9,21 +9,21 @@ const Projects = () => {
       title: "Nova Financial App",
       description: "A sophisticated mobile dashboard for financial tracking with a focus on dark-mode aesthetics.",
       details: "This project involved creating a full mobile dashboard allowing users to track their expenses, manage budgets, and visualize their financial health through interactive charts. Built entirely with React and Tailwind CSS.",
-      image: "/nova.jpg",
+      image: process.env.PUBLIC_URL + "/nova.jpg",
       link: "https://example.com/nova" 
     },
     {
       title: "Dropoint System",
       description: "Full-stack logistics management platform integrated with PSGC data for high-precision tracking.",
       details: "A comprehensive logistics platform designed to optimize delivery routes and track packages in real-time. It integrates directly with the Philippine Standard Geographic Code (PSGC) API to ensure accurate location tagging.",
-      image: "/dropoint.png",
+      image: process.env.PUBLIC_URL + "/dropoint.png",
       link: "https://example.com/dropoint" 
     },
     {
       title: "Kape Kuma",
       description: "Digital branding and menu system designed for a mobile coffee pop-up, focusing on accessibility.",
       details: "Developed a modern, accessible digital menu and branding landing page for a local coffee pop-up. The interface was heavily optimized for mobile devices and quick scanning by customers waiting in line.",
-      image: "/kapekuma.png",
+      image: process.env.PUBLIC_URL + "/kapekuma.png",
       link: "https://example.com/kapekuma"
     }
   ];

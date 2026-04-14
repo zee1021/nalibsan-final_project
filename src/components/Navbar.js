@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 rounded-lg bg-gray-700 overflow-hidden border border-gray-600">
           <img 
-            src="/profile.png" 
+            src={process.env.PUBLIC_URL + '/profile.png'} 
             alt="Suzzane" 
             className="w-full h-full object-cover"
           />
