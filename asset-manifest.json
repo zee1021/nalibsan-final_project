@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nalibsan-final_project/static/css/main.cd73790b.css",
+    "main.js": "/nalibsan-final_project/static/js/main.f21f8e8b.js",
+    "index.html": "/nalibsan-final_project/index.html",
+    "main.cd73790b.css.map": "/nalibsan-final_project/static/css/main.cd73790b.css.map",
+    "main.f21f8e8b.js.map": "/nalibsan-final_project/static/js/main.f21f8e8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd73790b.css",
+    "static/js/main.f21f8e8b.js"
+  ]
+}
